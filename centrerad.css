@@ -1,0 +1,63 @@
+html, body{
+    margin: 0;
+}
+
+body {
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+h1, h2, p {
+    max-width: 80ch;
+}
+
+.container{
+    max-width: 56rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hero{
+    background-color: #aaaaaa;
+    height: 50vh;
+    padding-top: 3rem;
+    position: relative;
+    h1{
+        font-size: 5rem;
+        color: #ffffff;
+    }
+}
+
+.cta {
+    display: lock;
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.6rem;
+    background-color: #ffffffaa;
+    font-size: 1.4rem;
+
+    ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1rem;
+    }
+
+    a{
+        text-decoration: none;
+    }
+}
